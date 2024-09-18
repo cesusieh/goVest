@@ -5,10 +5,14 @@ GoVest é uma aplicação de linha de comando (CLI) desenvolvida em Go como mét
 O GoVest utiliza a API pública <a href="https://brapi.dev/">brapi</a>, por favor se registre para poder utilizar a aplicação!
 
 Para cadastrar sua chave de API use 
+```
 ./govest rk --key "sua_chave_api"
-
+```
 Para visualizar a chave de API cadastrada use
+```
 ./govest vk
-
+```
 Para fazer buscas de ativos use 
+```
 ./govest s --stock "seu_ativo"
+```
